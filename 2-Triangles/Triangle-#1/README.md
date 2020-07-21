@@ -14,110 +14,110 @@ The program must validate input data. If the input is invalid, the program must 
 
 Sample program runs:
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-0 0
-Vertex B:
-5 0
-Vertex C:
-2.5 3
-Triangle #2:
-Vertex A:
-4 -1
-Vertex B:
-7 1.5
-Vertex C:
-4 4
-The triangles are identical.
+    Triangle #1:
+    Vertex A:
+    0 0
+    Vertex B:
+    5 0
+    Vertex C:
+    2.5 3
+    Triangle #2:
+    Vertex A:
+    4 -1
+    Vertex B:
+    7 1.5
+    Vertex C:
+    4 4
+    The triangles are identical.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-0
+    Triangle #1:
+    Vertex A:
+    0
 
 
-   15
-Vertex B:
-112 0 112 15
-Vertex C:
-Triangle #2:
-Vertex A:
-0 0
-Vertex B:
-96 0
-Vertex C:
-0 40
-The triangles are not identical, however, they have the same circumference.
+    15
+    Vertex B:
+    112 0 112 15
+    Vertex C:
+    Triangle #2:
+    Vertex A:
+    0 0
+    Vertex B:
+    96 0
+    Vertex C:
+    0 40
+    The triangles are not identical, however, they have the same circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-0 0
-Vertex B:
-10 0
-Vertex C:
-0 10
-Triangle #2:
-Vertex A:
--5 3
-Vertex B:
-12 8
-Vertex C:
-37 15
-Triangle #2 has a longer circumference.
+    Triangle #1:
+    Vertex A:
+    0 0
+    Vertex B:
+    10 0
+    Vertex C:
+    0 10
+    Triangle #2:
+    Vertex A:
+    -5 3
+    Vertex B:
+    12 8
+    Vertex C:
+    37 15
+    Triangle #2 has a longer circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-0 14.04
-Vertex B:
-11.2 0
-Vertex C:
-0 0
-Triangle #2:
-Vertex A:
-20.16 0
-Vertex B:
-0 2.7
-Vertex C:
-20.16 2.7
-The triangles are not identical, however, they have the same circumference.
+    Triangle #1:
+    Vertex A:
+    0 14.04
+    Vertex B:
+    11.2 0
+    Vertex C:
+    0 0
+    Triangle #2:
+    Vertex A:
+    20.16 0
+    Vertex B:
+    0 2.7
+    Vertex C:
+    20.16 2.7
+    The triangles are not identical, however, they have the same circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-0 0
-Vertex B:
-10 0
-Vertex C:
-0 10
-Triangle #2:
-Vertex A:
-0 0
-Vertex B:
-10 10
-Vertex C:
-15 15
-The points do not form a triangle.
+    Triangle #1:
+    Vertex A:
+    0 0
+    Vertex B:
+    10 0
+    Vertex C:
+    0 10
+    Triangle #2:
+    Vertex A:
+    0 0
+    Vertex B:
+    10 10
+    Vertex C:
+    15 15
+    The points do not form a triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-10 0
-Vertex B:
-20 1
-Vertex C:
-25 1.5
-The points do not form a triangle.
+    Triangle #1:
+    Vertex A:
+    10 0
+    Vertex B:
+    20 1
+    Vertex C:
+    25 1.5
+    The points do not form a triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-0 0
-Vertex B:
-999.990 204.330
-Vertex C:
-899.991 183.897
-The points do not form a triangle.
+    Triangle #1:
+    Vertex A:
+    0 0
+    Vertex B:
+    999.990 204.330
+    Vertex C:
+    899.991 183.897
+    The points do not form a triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-Vertex A:
-1 2
-Vertex B:
-3 abcd
-Invalid input.
+    Triangle #1:
+    Vertex A:
+    1 2
+    Vertex B:
+    3 abcd
+    Invalid input.
 ------------------------------------------------------------------------------------------------------------------

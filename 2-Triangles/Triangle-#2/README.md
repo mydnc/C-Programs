@@ -25,71 +25,71 @@ The program must validate input data. If the input is invalid, the program must 
 
 Sample program runs:
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[0;0],[5;0],[2.5;3]}
-Triangle #2:
- { [ 4 ; -1 ] , [ 7 ; 1.5 ] , [ 4 ; 4 ] } 
-The triangles are identical.
+    Triangle #1:
+    {[0;0],[5;0],[2.5;3]}
+    Triangle #2:
+    { [ 4 ; -1 ] , [ 7 ; 1.5 ] , [ 4 ; 4 ] } 
+    The triangles are identical.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{
-[
-0
-;
-15
-]
-,	[	112	;	0	]	,[112;15]}
-Triangle #2:
-{96.0,40.0,104.0}
-The triangles are not identical, however, they have the same circumference.
+    Triangle #1:
+    {
+    [
+    0
+    ;
+    15
+    ]
+    ,	[	112	;	0	]	,[112;15]}
+    Triangle #2:
+    {96.0,40.0,104.0}
+    The triangles are not identical, however, they have the same circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
- { 10 , 15 , 10 } 
-Triangle #2:
-{12,8,17}
-Triangle #2 has a longer circumference.
+    Triangle #1:
+    { 10 , 15 , 10 } 
+    Triangle #2:
+    {12,8,17}
+    Triangle #2 has a longer circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[0;14.04],[11.2;0],[0;0]}
-Triangle #2:
-{[20.16;0],[0;2.7],[20.16;2.7]}
-The triangles are not identical, however, they have the same circumference.
+    Triangle #1:
+    {[0;14.04],[11.2;0],[0;0]}
+    Triangle #2:
+    {[20.16;0],[0;2.7],[20.16;2.7]}
+    The triangles are not identical, however, they have the same circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[0.00;0.00],[0.24;0.70],[0.24;0.00]}
-Triangle #2:
-{0.65,0.78,0.25}
-The triangles are not identical, however, they have the same circumference.
+    Triangle #1:
+    {[0.00;0.00],[0.24;0.70],[0.24;0.00]}
+    Triangle #2:
+    {0.65,0.78,0.25}
+    The triangles are not identical, however, they have the same circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{51.09,49.49,4.94}
-Triangle #2:
-{37.92,50.11,17.49}
-The triangles are not identical, however, they have the same circumference.
+    Triangle #1:
+    {51.09,49.49,4.94}
+    Triangle #2:
+    {37.92,50.11,17.49}
+    The triangles are not identical, however, they have the same circumference.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[0;0],[10;0],[0;10]}
-Triangle #2:
-{[0;0],[10;10],[15;15]}
-Invalid triangle.
+    Triangle #1:
+    {[0;0],[10;0],[0;10]}
+    Triangle #2:
+    {[0;0],[10;10],[15;15]}
+    Invalid triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[10;0],[20;1],[25;1.5]}
-Invalid triangle.
+    Triangle #1:
+    {[10;0],[20;1],[25;1.5]}
+    Invalid triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{1,2,3}
-Invalid triangle.
+    Triangle #1:
+    {1,2,3}
+    Invalid triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[0;0],[999.990;204.330],[899.991;183.897]}
-Invalid triangle.
+    Triangle #1:
+    {[0;0],[999.990;204.330],[899.991;183.897]}
+    Invalid triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{1.923,59.240,61.163}
-Invalid triangle.
+    Triangle #1:
+    {1.923,59.240,61.163}
+    Invalid triangle.
 ------------------------------------------------------------------------------------------------------------------
-Triangle #1:
-{[1;2],[3;abcd],[7,9]}
-Invalid input.
+    Triangle #1:
+    {[1;2],[3;abcd],[7,9]}
+    Invalid input.
 ------------------------------------------------------------------------------------------------------------------
