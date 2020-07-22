@@ -21,11 +21,15 @@ TOFFICE
 
 initOffice ()
     the function creates a new office. The structure is to be dynamically allocated and a pointer to that structure is to be returned. Both lists in the newly created office must be initialized as empty.
+    
 addEmployee ( office, name )
     the function creates a new employee and places the new employee at the first position of the employee list. The parameters are name - name of the new employee and office - the office to place the employee to. The function is responsible for the allocation of the employee structure, moreover it must initialize the fields. The newly listed employee does not have any car assigned, i.e. m_Car must be set to NULL.
+    
 addCar ( office, model )
     the function creates a new car and places the new car at the first position of the car list. The parameters are model - the model name of the car and office - the office to place the car to. The function is responsible for the allocation of the car structure, moreover it must initialize the fields.
+    
 freeOffice ( office )
     the function frees all resources allocated by the given office (i.e. both employee and car linked lists plus the structure that represents the office),
+    
 cloneOffice ( office )
     the function creates an independent copy of the given office. The newly created office must preserve the employees, the cars, the order of employees, the order of the cars, and the assigned cars. Caution: the newly created list must be independent, thus the links to the cars must be updated to refer to the corresponding elements in the newly created office. Return value is a pointer that points to the newly allocated (and filled) office structure. 
